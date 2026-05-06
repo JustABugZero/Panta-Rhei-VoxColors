@@ -2619,3 +2619,11 @@ Entries:
         player's profile (while assuming Passenger as the job).
   id: 328
   time: '2026-05-06T10:57:47.0000000+00:00'
+- author: Tarazicon
+  changes:
+    - type: Add
+      message: Added voicelines for events that did not have any previously.
+    - type: Tweak
+      message: Changed the announcer voicelines to use a toned down effect.
+  id: 329
+  time: '2026-05-06T11:08:42.0000000+00:00'
