@@ -2639,3 +2639,11 @@ Entries:
       message: Sechtech has been added to train & archivists get thier locker.
   id: 331
   time: '2026-05-06T12:04:43.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Add
+      message: >-
+        A Sechtech jobs slot has been added to Core & archivists get their
+        locker.
+  id: 332
+  time: '2026-05-06T12:05:59.0000000+00:00'
