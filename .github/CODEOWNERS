@@ -13,7 +13,7 @@
 
 # Lobby art and music - automatically direction issues since its immediately visible to players - Maintainers in absence of a proper direction unit
 /Resources/Audio/Lobby/ @SyaoranFox @mnemotechnician @m3739 #@floof-station/direction
-/Resources/Textures/LobbyScreens/ @memeji @mnemotechnician @m3739 #@floof-station/direction
+/Resources/Textures/LobbyScreens/ @SyaoranFox @mnemotechnician @m3739 #@floof-station/direction
 
 # Maps
 /Resources/Maps/ @dunrab #@floof-station/map-maintainers
