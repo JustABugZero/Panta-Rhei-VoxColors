@@ -2909,3 +2909,9 @@ Entries:
       message: Fixed traits not applying correctly when swapping characters.
   id: 363
   time: '2026-05-16T22:42:27.0000000+00:00'
+- author: SyaoranFox
+  changes:
+    - type: Add
+      message: Bad Aim and Can't Aim traits.
+  id: 364
+  time: '2026-05-16T22:57:05.0000000+00:00'
