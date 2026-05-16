@@ -1,5 +1,5 @@
 - type: entity
-  id: BaseHumanOrganUnGibbable
+  id: [BaseHumanOrgan, BaseOrganRotting] # Floof - added the rotting parent
   parent: BaseItem
   abstract: true
   components:
@@ -37,15 +37,8 @@
       collection: OrganInteraction
 
 - type: entity
-  id: BaseHumanOrgan
-  parent: [BaseHumanOrganUnGibbable, BaseOrganRotting] # Floof - added the rotting parent
-  abstract: true
-  components:
-  - type: Gibbable
-
-- type: entity
   id: OrganHumanBrain
-  parent: BaseHumanOrganUnGibbable
+  parent: BaseHumanOrgan
   name: brain
   description: "The source of incredible, unending intelligence. Honk."
   components:
