@@ -3145,3 +3145,11 @@ Entries:
       message: Fixed Airloss Auto-Injector using the wrong amount of chemicals.
   id: 393
   time: '2026-05-25T06:09:17.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Add
+      message: >-
+        Engineering can now make Handheld Atmos Monitors when Advanced
+        Atmospherics is researched.
+  id: 394
+  time: '2026-05-25T07:23:06.0000000+00:00'
