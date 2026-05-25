@@ -3159,3 +3159,11 @@ Entries:
       message: The chefs locker on Arena will now spawn in correctly.
   id: 395
   time: '2026-05-25T07:32:45.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Add
+      message: >-
+        New vending machines for a rivial Cola company named Bepis have been
+        seen around station.
+  id: 396
+  time: '2026-05-25T07:49:21.0000000+00:00'
