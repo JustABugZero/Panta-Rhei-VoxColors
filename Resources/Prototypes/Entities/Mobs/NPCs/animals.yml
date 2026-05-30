@@ -2190,6 +2190,10 @@
       behaviors:
       - !type:GibBehavior
         recursive: false
+  - type: NightVision # Euphoria | Mice see in the dark
+    color: "#808080"
+    activateSound: null
+    deactivateSound: null
 
 - type: entity
   parent: MobMouse
@@ -3539,6 +3543,7 @@
   - type: Speech
     speechSounds: Cat
     speechVerb: SmallMob
+    allowedEmotes: ['Meow', 'Hiss', 'Mew', 'Purr', 'Growl'] #Euphoria | Cat emotes!
   - type: Butcherable
     spawned:
     - id: FoodMeat
@@ -3577,6 +3582,8 @@
   - type: Tag
     tags:
     - VimPilot
+    - TajaranEmotes # Euphoria | Cat emotes
+    - DoorBumpOpener # Euphoria | Parity with emotional support cats
   - type: MovementSpeedModifier
     baseWalkSpeed: 2
     baseSprintSpeed: 4
@@ -3590,6 +3597,19 @@
   - type: NpcFactionMember # DeltaV - give cats faction so they fight mice
     factions:
     - Cat
+  - type: NightVision # Euphoria | Cats see in the dark
+    color: "#808080"
+    activateSound: null
+    deactivateSound: null
+  - type: Puller # Euphoria | Let cats drag things off
+    needsHands: False
+  - type: Emoting
+  - type: Vocal # Euphoria | Let cats purr
+    wilhelm: "/Audio/Nyanotrasen/Voice/Felinid/cat_wilhelm.ogg"
+    sounds:
+      Male: Cat
+      Female: Cat
+      Unsexed: Cat
 
 - type: entity
   name: calico cat
@@ -3666,6 +3686,13 @@
         Slash: 6
         Piercing: 6
         Structural: 15
+  - type: IntrinsicRadioReceiver # Euphoria | Meows in chat
+  - type: IntrinsicRadioTransmitter # Euphoria | Meows in chat
+    channels:
+    - Syndicate
+  - type: ActiveRadio # Euphoria | Meows in chat
+    channels:
+    - Syndicate
 
 - type: entity
   name: space cat
@@ -3689,9 +3716,6 @@
   - type: TemperatureDamage
     heatDamageThreshold: 423
     coldDamageThreshold: 0
-  - type: Tag
-    tags:
-      - DoorBumpOpener
   - type: MovementAlwaysTouching
   - type: PressureImmunity
   - type: ProtectedFromStepTriggers
