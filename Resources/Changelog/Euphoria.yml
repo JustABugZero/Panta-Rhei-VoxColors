@@ -3214,3 +3214,11 @@ Entries:
         options.
   id: 403
   time: '2026-05-29T11:05:28.0000000+00:00'
+- author: SyaoranFox
+  changes:
+    - type: Fix
+      message: >-
+        Fixed fluid puddling throwing an error during HONK HONK AWOOGA HUBBA
+        HUBBA
+  id: 404
+  time: '2026-05-30T05:17:26.0000000+00:00'
