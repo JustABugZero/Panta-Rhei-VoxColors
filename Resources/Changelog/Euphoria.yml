@@ -3385,3 +3385,11 @@ Entries:
       message: We now allow Harpies to learn Tradeband.
   id: 425
   time: '2026-06-05T11:50:59.0000000+00:00'
+- author: Raikyr0
+  changes:
+    - type: Tweak
+      message: >-
+        Changed the chemicals inside a Banana Cream Pie, it will now look tasty
+        instead of green.
+  id: 426
+  time: '2026-06-05T13:26:01.0000000+00:00'
