@@ -3552,3 +3552,11 @@ Entries:
       message: The stick hand has been temporarily removed due to bug abuse.
   id: 445
   time: '2026-06-12T11:24:40.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Fix
+      message: >-
+        Acolyte and Golemancer should now have their proper IDs for their
+        alternative PDAs.
+  id: 446
+  time: '2026-06-12T19:22:16.0000000+00:00'
