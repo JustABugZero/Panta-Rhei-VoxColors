@@ -3594,3 +3594,13 @@ Entries:
       message: Engineering arm warmers are now insulated.
   id: 451
   time: '2026-06-13T00:56:14.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Tweak
+      message: Kettle now has two Chemist slots again.
+    - type: Tweak
+      message: >-
+        The number of players required for Asteriks, Kettle and Edge have been
+        adjusted.
+  id: 452
+  time: '2026-06-15T07:09:26.0000000+00:00'
