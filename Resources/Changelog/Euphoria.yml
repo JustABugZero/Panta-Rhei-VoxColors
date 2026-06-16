@@ -3656,3 +3656,9 @@ Entries:
       message: Added the milking machine, for milking cows. And "cows".
   id: 456
   time: '2026-06-16T11:17:29.0000000+00:00'
+- author: Eagle0600
+  changes:
+    - type: Fix
+      message: Traits should no longer be erroneously rejected for being too expensive.
+  id: 457
+  time: '2026-06-16T22:49:22.0000000+00:00'
