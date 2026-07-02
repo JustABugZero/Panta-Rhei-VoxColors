@@ -4042,3 +4042,15 @@ Entries:
         purposes).
   id: 504
   time: '2026-07-01T13:05:24.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Fix
+      message: >-
+        Paper Planes, Coupon and Swan will not longer require two pieces of
+        paper to fully make them.
+    - type: Fix
+      message: >-
+        Paper Planes will now work like regular paper, you can write on them,
+        burn them, eat them and fax them.
+  id: 505
+  time: '2026-07-02T04:23:34.0000000+00:00'
