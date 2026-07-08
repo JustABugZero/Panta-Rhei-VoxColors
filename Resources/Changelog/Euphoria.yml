@@ -4134,3 +4134,9 @@ Entries:
       message: Added one goth dress from EE.
   id: 514
   time: '2026-07-08T07:02:39.0000000+00:00'
+- author: JaDiDo
+  changes:
+    - type: Fix
+      message: Adjustments to the consent of vore
+  id: 515
+  time: '2026-07-08T07:08:17.0000000+00:00'
