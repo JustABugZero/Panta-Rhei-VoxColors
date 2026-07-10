@@ -4220,3 +4220,11 @@ Entries:
         transfer
   id: 523
   time: '2026-07-10T12:47:53.0000000+00:00'
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: >-
+        Hands should now be drawn over inner clothing (and thus remain visible
+        when your character is facing west/east)
+  id: 524
+  time: '2026-07-10T12:48:58.0000000+00:00'
