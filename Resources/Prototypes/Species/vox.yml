@@ -6,7 +6,8 @@
   sprites: MobVoxSprites
   markingLimits: MobVoxMarkingLimits
   dollPrototype: MobVoxDummy
-  skinColoration: VoxFeathers
+  #skinColoration: VoxFeathers # - Euphoria - Make Vox colorful again :>
+  skinColoration: Hues # - Euphoria - Make Vox colorful again :>
   defaultSkinTone: "#6c741d"
   maleFirstNames: NamesVox
   femaleFirstNames: NamesVox
