@@ -10,7 +10,7 @@
     lightness: [0.85, 1]
 
 
-#- type: skinColoration
+#- type: skinColoration # - Euphoria - No longer needed as Vox refrence Hues
 #  id: VoxFeathers
 #  strategy: !type:ClampedHsvColoration
 #    hue: [0.081, 0.48]
