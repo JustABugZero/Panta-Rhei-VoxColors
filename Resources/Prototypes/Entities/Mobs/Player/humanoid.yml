@@ -2,8 +2,9 @@
 
 - type: randomHumanoidSettings
   id: EventHumanoid
-    # start-backmen: species
   speciesBlacklist:
+  - Allulalo # Delta V - Allulalos are very limiting and it can suck to be randomized into one
+  # start-backmen: species
   - Monkey
   - Kobold
   # end-backmen: species
@@ -633,7 +634,8 @@
       roleLoadout: [ RoleSurvivalSyndicate ]
 
 - type: entity
-  id: RandomHumanoidSpawnerNukeOp
+  id: RandomHumanoidSpawner
+  speciesBlacklist: [Allulalo] # Delta V - Allulalos are very limiting and it can suck to be randomized into one
   name: Nuclear Operative
   components:
     - type: Sprite
@@ -644,6 +646,7 @@
 
 - type: randomHumanoidSettings
   id: NukeOp
+  speciesBlacklist: [Allulalo] # Delta V - Allulalos are very limiting and it can suck to be randomized into one
   components:
     - type: RandomHumanoidAppearance
       randomizeName: false
