@@ -4270,3 +4270,11 @@ Entries:
         flips.
   id: 529
   time: '2026-07-11T05:46:11.0000000+00:00'
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        Players can now choose to opt out from Cosmic Cult conversions via
+        traits.
+  id: 530
+  time: '2026-07-12T02:45:19.0000000+00:00'
