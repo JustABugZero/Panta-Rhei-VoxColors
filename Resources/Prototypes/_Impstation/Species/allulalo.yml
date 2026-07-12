@@ -6,6 +6,7 @@
   defaultSkinTone: "#385878"
   markingLimits: MobAllulaloMarkingLimits # Delta V - Nubody
   #dollPrototype: AppearanceAllulalo # Delta V - Nubody
+  dollPrototype: MobAllulaloDummy # - Euphoria -
   skinColoration: Hues
   maleFirstNames: AllulaloFirstNames
   femaleFirstNames: AllulaloFirstNames
@@ -15,7 +16,8 @@
   - Female
   - Unsexed
 
-    Begin Delta V Removals - Changes for Nubody
+    #Begin Delta V Removals - Changes for Nubody
+    # -Euphoria- ^ Undone
   - type: speciesBaseSprites
     id: MobAllulaloSprites
     sprites:
