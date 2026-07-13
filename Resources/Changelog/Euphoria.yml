@@ -4292,3 +4292,9 @@ Entries:
       message: Fixed Behonker being deleted on dispel.
   id: 532
   time: '2026-07-12T09:10:25.0000000+00:00'
+- author: sprkl
+  changes:
+    - type: Fix
+      message: Unrevivable IPCs are now actually unrevivable.
+  id: 533
+  time: '2026-07-13T06:18:00.0000000+00:00'
