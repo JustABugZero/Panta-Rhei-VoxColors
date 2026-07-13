@@ -260,7 +260,7 @@
     - ZombieBlood
     - Sap
     - YellowBlood # Euphoria: Add yellow blood.
-    - BloodAllulalo
+    - BloodAllulalo # Imp: Allulalo blood
 
 - type: xenoArchTrigger
   id: TriggerThrow
