@@ -22,6 +22,16 @@
         - MobMask
         layer:
         - MobLayer
+  # Begin Euphoria changes - Placeholder.
+  - type: LanguageKnowledge
+    speaks:
+    - TauCetiBasic
+    - Schechi
+    understands:
+    - TauCetiBasic
+    - Schechi
+    naturalLanguage: Schechi
+  # End Euphoria changes
   - type: Icon
     sprite: _Impstation/Mobs/Species/Allulalo/parts.rsi
     state: full
