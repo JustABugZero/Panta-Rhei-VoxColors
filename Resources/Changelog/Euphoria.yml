@@ -4314,3 +4314,11 @@ Entries:
         collar as ID!
   id: 535
   time: '2026-07-13T06:40:12.0000000+00:00'
+- author: kivdon
+  changes:
+    - type: Tweak
+      message: >-
+        Sacrificing a psionic at the altar now reduces glimmer by 300 to 400
+        (was 30 to 60).
+  id: 536
+  time: '2026-07-13T06:41:58.0000000+00:00'
