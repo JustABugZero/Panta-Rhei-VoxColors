@@ -4298,3 +4298,11 @@ Entries:
       message: Unrevivable IPCs are now actually unrevivable.
   id: 533
   time: '2026-07-13T06:18:00.0000000+00:00'
+- author: ScarlettJFG
+  changes:
+    - type: Remove
+      message: >-
+        Temporarily removed the ability for slimes to have different hair color.
+        (Fix being worked on)
+  id: 534
+  time: '2026-07-13T06:37:12.0000000+00:00'
