@@ -4336,3 +4336,11 @@ Entries:
         smart fridges.
   id: 537
   time: '2026-07-13T06:44:19.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Fix
+      message: >-
+        The Casino random event shuttle now has a mini gravity generator and a
+        few more things have been fixed.
+  id: 538
+  time: '2026-07-13T06:45:23.0000000+00:00'
