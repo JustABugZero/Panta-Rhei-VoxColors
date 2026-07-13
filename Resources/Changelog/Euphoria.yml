@@ -4322,3 +4322,17 @@ Entries:
         (was 30 to 60).
   id: 536
   time: '2026-07-13T06:41:58.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Add
+      message: Adds a Service SmartFridge for mappers.
+    - type: Add
+      message: >-
+        Service SmartFridge machineboard can be found in the circuit imprinter
+        and service techfab on round start.
+    - type: Tweak
+      message: >-
+        Medical Pens are cheaper to produce and now can be put into Medical
+        smart fridges.
+  id: 537
+  time: '2026-07-13T06:44:19.0000000+00:00'
