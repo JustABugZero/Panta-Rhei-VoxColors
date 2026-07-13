@@ -4360,3 +4360,15 @@ Entries:
       message: Torgua now has a full justice roles and a security technician job slot.
   id: 540
   time: '2026-07-13T14:13:29.0000000+00:00'
+- author: WhiteLightningTwister
+  changes:
+    - type: Add
+      message: >-
+        Added CJ, Prosec offices. Improved librarian office, dorms got expanded,
+        likewise docks and many more changes.
+    - type: Tweak
+      message: Asterisk is no longer on the ground, its in low orbit.
+    - type: Remove
+      message: No more firing range in Asterisk's sec department.
+  id: 541
+  time: '2026-07-13T14:28:27.0000000+00:00'
