@@ -1,7 +1,7 @@
 using Robust.Shared.GameStates;
 using Content.Shared.Drunk;
 
-namespace Content.Shared.Traits.Assorted;
+namespace Content.Shared._Impstation.Traits.Assorted;
 
 /// <summary>
 /// Used for the heavyweight trait. DrunkSystem will check for this component and modify the boozePower accordingly if it finds it.
@@ -11,5 +11,6 @@ namespace Content.Shared.Traits.Assorted;
 public sealed partial class HeavyweightDrunkComponent : Component
 {
     [DataField("boozeStrengthMultiplier"), ViewVariables(VVAccess.ReadWrite)]
+
     public float BoozeStrengthMultiplier = 0.80f;
 }

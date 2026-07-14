@@ -23,7 +23,13 @@ public sealed class UnableToWieldSystem : EntitySystem
     {
         args.Cancel();
 
+
+        // Euphoria - Asked to change to PopupClient
+        // if (_net.IsClient && _timing.IsFirstTimePredicted && ent.Comp.PopupText != null)
+        //     _popup.PopupEntity(Loc.GetString(ent.Comp.PopupText), ent, ent);
         if (_net.IsClient && _timing.IsFirstTimePredicted && ent.Comp.PopupText != null)
             _popup.PopupEntity(Loc.GetString(ent.Comp.PopupText), ent, ent);
     }
+
+
 }
