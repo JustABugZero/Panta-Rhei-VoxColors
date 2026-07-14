@@ -12,10 +12,10 @@
   #   baseDecayRate: 0.02 # 30% ish more than default
   # - Euphoria - Changed hunger to the same value as Chitinids, as they also have 30% hunger, but ballanced for Euphoria
   - type: Hunger
-    baseDecayRate: 0.0221666666 # 30% ish more than default
+    baseDecayRate: 0.0221666666 # 33% more
   - type: Thirst
-    baseDecayRate: 0.0221666666 # 30% ish more than default
-  # - Euphoria - Changed hunger to the same value as Chitinids, as they also have 30% hunger, but ballanced for Euphoria
+    baseDecayRate: 0.0221666666 # 33% more
+  # - Euphoria - Changed hunger to the same value as Chitinids, as they are close to 30% hunger, but ballanced for Euphoria
   - type: Fixtures
     fixtures: # TODO: This needs a second fixture just for mob collisions.
       fix1:
