@@ -28,7 +28,7 @@ public sealed class UnableToWieldSystem : EntitySystem
         // if (_net.IsClient && _timing.IsFirstTimePredicted && ent.Comp.PopupText != null)
         //     _popup.PopupEntity(Loc.GetString(ent.Comp.PopupText), ent, ent);
         if (_net.IsClient && _timing.IsFirstTimePredicted && ent.Comp.PopupText != null)
-            _popup.PopupEntity(Loc.GetString(ent.Comp.PopupText), ent, ent);
+            _popup.PopupClient(Loc.GetString(ent.Comp.PopupText), ent, ent);
     }
 
 
